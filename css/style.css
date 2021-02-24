@@ -1,0 +1,1293 @@
+/* Стили обнуления */
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-MediumItalic.woff2") format("woff2"),
+		url("../fonts/Gilroy-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBoldItalic.woff2") format("woff2"),
+		url("../fonts/Gilroy-SemiBoldItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-RegularItalic.woff2") format("woff2"),
+		url("../fonts/Gilroy-RegularItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Black.woff2") format("woff2"), url("../fonts/Gilroy-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Thin.woff2") format("woff2"), url("../fonts/Gilroy-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ExtraBoldItalic.woff2") format("woff2"),
+		url("../fonts/Gilroy-ExtraBoldItalic.woff") format("woff");
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-BlackItalic.woff2") format("woff2"), url("../fonts/Gilroy-BlackItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-LightItalic.woff2") format("woff2"), url("../fonts/Gilroy-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-HeavyItalic.woff2") format("woff2"), url("../fonts/Gilroy-HeavyItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-UltraLightItalic.woff2") format("woff2"),
+		url("../fonts/Gilroy-UltraLightItalic.woff") format("woff");
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-UltraLight.woff2") format("woff2"), url("../fonts/Gilroy-UltraLight.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("../fonts/Gilroy-ThinItalic.woff2") format("woff2"), url("../fonts/Gilroy-ThinItalic.woff") format("woff");
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: #fff;
+	background-color: red;
+	font-family: Gilroy;
+}
+/* ------------------ */
+/* LESSON 10 */
+
+.top-fon {
+	margin: auto;
+	position: relative;
+	width: 1920px;
+	height: 1068px;
+	background: #111428;
+}
+
+.top-header {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	box-shadow: 0px 6px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.top-name {
+	font-family: Gilroy;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	width: 162px;
+	height: 29px;
+	left: 351px;
+	top: 35px;
+	text-transform: uppercase;
+}
+.ttext {
+	font-family: Gilroy;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+	text-transform: capitalize;
+}
+.top-films {
+	position: absolute;
+	width: 69px;
+	height: 22px;
+	left: 573px;
+	top: 38px;
+}
+.top-clips {
+	position: absolute;
+	width: 55px;
+	height: 22px;
+	left: 682px;
+	top: 38px;
+}
+
+.top-music {
+	position: absolute;
+	width: 66px;
+	height: 22px;
+	left: 777px;
+	top: 38px;
+}
+.button {
+	height: 12px;
+	width: 12px;
+	border-radius: 0px;
+	background: url("../img/chevron-bottom.png") no-repeat;
+}
+.button_1 {
+	position: absolute;
+
+	left: 644px;
+	top: 44px;
+}
+.button_2 {
+	position: absolute;
+	left: 739px;
+	top: 44px;
+}
+.button_3 {
+	position: absolute;
+	left: 845px;
+	top: 44px;
+}
+
+.input {
+	position: absolute;
+	width: 574px;
+	height: 41px;
+	left: 883px;
+	top: 29px;
+
+	background: #111428;
+	border: 1px solid #a3a3a3;
+
+	box-sizing: border-box;
+	border-radius: 5px;
+
+	padding-left: 14px;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	text-transform: capitalize;
+
+	color: #a3a3a3;
+}
+.search {
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	left: 1425px;
+	top: 41px;
+	border-radius: 0px;
+
+	background: url("../img/search.png") 0 0 no-repeat;
+}
+.heart {
+	position: absolute;
+	width: 20px;
+	height: 18px;
+	left: 1485px;
+	top: 41px;
+	border-radius: 50%;
+	background: url("../img/heart_20_.png") 0 0 no-repeat;
+}
+.round {
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 1527px;
+	top: 36px;
+	border-radius: 50%;
+	background: #c4c4c4;
+}
+.button_4 {
+	position: absolute;
+	left: 1557px;
+	top: 44px;
+}
+/* ========= */
+.vp1 {
+	position: absolute;
+	width: 163px;
+	height: 16px;
+	left: 352px;
+	top: 119px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+
+	color: #a3a3a3;
+}
+.vp2 {
+	position: absolute;
+	width: 441px;
+	height: 46px;
+	left: 740px;
+	top: 163px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 46px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+.mail {
+	position: absolute;
+	width: 385px;
+	height: 19px;
+	left: 768px;
+	top: 219px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	color: #64b369;
+}
+
+.input-mail {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 279px;
+	background: #ffffff;
+	border-radius: 5px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #777777;
+	padding-left: 20px;
+}
+
+.back-img {
+	background: url("../img/icon.png") no-repeat;
+	position: absolute;
+	/* height: 16px;
+	width: 16px; */
+	left: 768px;
+	top: 359px;
+	border-radius: 0px;
+}
+.back-a {
+	position: absolute;
+	width: 246px;
+	height: 19px;
+	left: 802px;
+	top: 359px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+.send {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 409px;
+
+	background: #337ab7;
+	border-radius: 5px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+
+	color: #ffffff;
+}
+.spam {
+	position: absolute;
+	width: 311px;
+	height: 38px;
+	left: 768px;
+	top: 481px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #aeaeae;
+}
+.not {
+	position: absolute;
+	width: 171px;
+	height: 21px;
+	left: 815px;
+	top: 549px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+}
+.reg {
+	position: absolute;
+	width: 109px;
+	height: 21px;
+	left: 996px;
+	top: 549px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #64b369;
+}
+.line {
+	position: absolute;
+	width: 1216px;
+	height: 1px;
+	left: 352px;
+	top: 631px;
+
+	background: #ffffff;
+	/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.plus {
+	position: absolute;
+	width: 162px;
+	height: 24px;
+	left: 869px;
+	top: 697px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+.twitter {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 740px;
+	top: 741px;
+	background: url("../img/twitter.png") 0 0 no-repeat;
+}
+.vk {
+	background: url("../img/vk.png") 0 0 no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 820px;
+	top: 741px;
+}
+.fb {
+	background: url("../img/facebook.png") 0 0 no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 900px;
+	top: 741px;
+}
+.insta {
+	background: url("../img/instagram\ \(1\)\ 1.png") 0 0 no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 980px;
+	top: 741px;
+}
+.youtube {
+	background: url("../img/youtube.png") 0 0 no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1060px;
+	top: 741px;
+}
+.ok {
+	background: url("../img/odnoklassniki.png") 0 0 no-repeat;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 1140px;
+	top: 741px;
+}
+.about {
+	position: absolute;
+	width: 56px;
+	height: 24px;
+	left: 618px;
+	top: 841px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+
+.question {
+	position: absolute;
+	width: 171px;
+	height: 24px;
+	left: 694px;
+	top: 841px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+.tel {
+	position: absolute;
+	width: 177px;
+	height: 24px;
+	left: 885px;
+	top: 841px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+.email {
+	position: absolute;
+	width: 220px;
+	height: 24px;
+	left: 1082px;
+	top: 841px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+
+/* =======2====== */
+/* background: #111428; */
+.space {
+	width: 100%;
+	height: 50px;
+}
+.middle {
+	position: relative;
+	width: 1920px;
+	height: 1068px;
+
+	background: #111428;
+}
+
+.enter1 {
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	left: 352px;
+	top: 119px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	text-transform: capitalize;
+
+	color: #a3a3a3;
+}
+
+.enter2 {
+	position: absolute;
+	width: 86px;
+	height: 46px;
+	left: 917px;
+	top: 163px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 46px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+
+.mail-input {
+	left: 768px;
+	top: 250px;
+}
+.input-password {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 330px;
+
+	background: #ffffff;
+	border-radius: 5px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #777777;
+	padding-left: 20px;
+}
+.input-checkbox {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 768px;
+	top: 412px;
+
+	background: #ffffff;
+	border-radius: 10px;
+}
+.design-checkbox {
+	border-radius: 10px;
+}
+.send-entrance {
+	left: 768px;
+	top: 461px;
+}
+
+.checkbox1-label {
+	cursor: pointer;
+	position: absolute;
+
+	height: 21px;
+	left: 768px;
+	top: 412px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+
+	padding: 0 0 0 30px;
+}
+.checkbox1-input {
+	position: absolute;
+	left: 768px;
+	top: 412px;
+	visibility: hidden;
+}
+.checkbox1-label::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox1-input:checked + .checkbox1-label::before {
+	background: white url("../img/heart.png") center no-repeat;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+.forgot-a {
+	position: absolute;
+	width: 141px;
+	height: 21px;
+	left: 1011px;
+	top: 410px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #64b369;
+}
+.through {
+	position: absolute;
+	width: 110px;
+	height: 21px;
+	left: 905px;
+	top: 541px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+}
+
+.vk-2 {
+	left: 870px;
+	top: 582px;
+}
+
+.fb-2 {
+	left: 940px;
+	top: 582px;
+}
+
+.ok-2 {
+	left: 1010px;
+	top: 582px;
+}
+
+.not-2 {
+	left: 815px;
+	top: 652px;
+}
+.reg-2 {
+	left: 996px;
+	top: 652px;
+}
+.line-2 {
+	position: relative;
+	left: 352px;
+	top: 734px;
+}
+
+.plus-2 {
+	left: 869px;
+	top: 800px;
+}
+
+.twitter-3 {
+	left: 740px;
+	top: 844px;
+}
+
+.vk-3 {
+	left: 820px;
+	top: 844px;
+}
+
+.fb-3 {
+	left: 900px;
+	top: 844px;
+}
+
+.insta-3 {
+	left: 980px;
+	top: 844px;
+}
+
+.youtube-3 {
+	left: 1060px;
+	top: 844px;
+}
+
+.ok-3 {
+	left: 1140px;
+	top: 844px;
+}
+
+.about-3 {
+	left: 618px;
+	top: 944px;
+}
+
+.question-3 {
+	left: 694px;
+	top: 944px;
+}
+
+.tel-3 {
+	left: 885px;
+	top: 944px;
+}
+
+.email-3 {
+	left: 1082px;
+	top: 944px;
+}
+.botton {
+	position: relative;
+	width: 1920px;
+	height: 1317px;
+
+	background: #111428;
+}
+
+/* =========footer========= */
+
+.enter4 {
+	position: absolute;
+	width: 231px;
+	height: 46px;
+	left: 844px;
+	top: 163px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 46px;
+	/* identical to box height */
+
+	/* 2 */
+
+	color: #ffffff;
+}
+
+.input-name4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 250px;
+
+	padding-left: 20px;
+	font-size: 18px;
+
+	background: #ffffff;
+	border-radius: 5px;
+}
+.input-surname4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 330px;
+
+	padding-left: 20px;
+	font-size: 18px;
+
+	background: #ffffff;
+	border-radius: 5px;
+}
+.input-login4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 410px;
+
+	background: #ffffff;
+	border-radius: 5px;
+
+	padding-left: 20px;
+	font-size: 18px;
+}
+.input-mail4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 490px;
+
+	background: #ffffff;
+	border-radius: 5px;
+
+	padding-left: 20px;
+	font-size: 18px;
+}
+.input-pass4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 570px;
+
+	background: #ffffff;
+	border-radius: 5px;
+	padding-left: 20px;
+	font-size: 18px;
+}
+.input-password5 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 650px;
+
+	background: #ffffff;
+	border-radius: 5px;
+
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+/* CHECKBOXXXXXXXXXXXX */
+
+.checkbox2-inputm {
+	position: absolute;
+	visibility: hidden;
+
+	left: 720px;
+	top: 768px;
+}
+.checkbox2-inputw {
+	position: absolute;
+	visibility: hidden;
+
+	left: 926px;
+	top: 720px;
+}
+
+.checkbox2-label {
+	position: absolute;
+	width: 78px;
+	height: 21px;
+	left: 768px;
+	top: 718px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+
+	cursor: pointer;
+	position: absolute;
+
+	padding: 0 0 0 30px;
+}
+
+.checkbox2-label::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+.checkbox2-label::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox2-inputm:checked + .checkbox2-label::before {
+	background: white;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox2-inputm:checked + .checkbox2-label::after {
+	top: 4px;
+	left: 4px;
+	width: 12px;
+	height: 12px;
+	background: #337ab7;
+	border-radius: 5px;
+}
+
+.checkbox2-label.c2 {
+	position: absolute;
+	width: 83px;
+	height: 21px;
+	left: 926px;
+	top: 718px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+}
+.checkbox2-label.c2::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+.checkbox2-label.c2::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox2-inputw:checked + .checkbox2-label.c2::before {
+	background: white;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox2-inputw:checked + .checkbox2-label.c2::after {
+	top: 4px;
+	left: 4px;
+	width: 12px;
+	height: 12px;
+	background: #337ab7;
+	border-radius: 5px;
+}
+
+.checkbox3-input {
+	position: absolute;
+	visibility: hidden;
+
+	left: 768px;
+	top: 772px;
+}
+.checkbox3-label {
+	position: absolute;
+	width: 109px;
+	height: 21px;
+	left: 798px;
+	top: 770px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #ffffff;
+
+	cursor: pointer;
+	position: absolute;
+}
+.checkbox3-label::before {
+	position: absolute;
+	left: -30px;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox3-label::after {
+	position: absolute;
+	left: -30px;
+	top: 0;
+	content: "";
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox3-input:checked + .checkbox3-label::before {
+	background: white;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+.checkbox3-input:checked + .checkbox3-label::after {
+	top: 4px;
+	left: -26px;
+	width: 12px;
+	height: 12px;
+	background: #337ab7;
+	border-radius: 5px;
+}
+
+.rules {
+	position: absolute;
+	width: 161px;
+	height: 21px;
+	left: 917px;
+	top: 770px;
+
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+
+	color: #64b369;
+}
+
+.registration4 {
+	position: absolute;
+	width: 384px;
+	height: 50px;
+	left: 768px;
+	top: 821px;
+
+	background: #337ab7;
+	border-radius: 5px;
+}
+
+.yes {
+	left: 845px;
+	top: 901px;
+}
+
+.entr4 {
+	left: 1024px;
+	top: 901px;
+}
+
+.line-4 {
+	left: 352px;
+	top: 983px;
+}
+
+.plus-4 {
+	left: 869px;
+	top: 1049px;
+}
+
+.twitter-4 {
+	left: 740px;
+	top: 1093px;
+}
+
+.vk-4 {
+	left: 820px;
+	top: 1093px;
+}
+
+.fb-4 {
+	left: 900px;
+	top: 1093px;
+}
+
+.insta-4 {
+	left: 980px;
+	top: 1093px;
+}
+
+.youtube-4 {
+	left: 1060px;
+	top: 1093px;
+}
+
+.ok-4 {
+	left: 1140px;
+	top: 1093px;
+}
+
+.about-4 {
+	left: 618px;
+	top: 1193px;
+}
+
+.question-4 {
+	left: 694px;
+	top: 1193px;
+}
+
+.tel-4 {
+	left: 885px;
+	top: 1193px;
+}
+
+.email-4 {
+	left: 1082px;
+	top: 1193px;
+}
